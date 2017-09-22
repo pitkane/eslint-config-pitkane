@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-pitkane",
   "version": "0.1.0",
-  "description":
-    "Eslint config with less rule for react & react-native working with es7. Extends airbnb.",
+  "description": "Eslint config with less rule for react & react-native working with es7. Extends airbnb.",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/pitkane/eslint-config-pitkane"
@@ -16,7 +15,10 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "files": ["index.js", "rules/*"],
+  "files": [
+    "index.js",
+    "rules/*"
+  ],
   "author": "Mikko Pitkänen <mikko@mbit.fi> <https://github.com/pitkane>",
   "license": "MIT",
   "keywords": [
@@ -31,12 +33,12 @@
     "react eslint"
   ],
   "dependencies": {
-    "babel-eslint": "7.2.3",
-    "eslint": "4.2.0",
+    "babel-eslint": "8.0.0",
+    "eslint": "4.7.2",
     "eslint-plugin-class-property": "1.0.6",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
-    "eslint-plugin-react": "7.1.0"
+    "eslint-plugin-react": "7.3.0"
   },
   "peerDependencies": {
     "eslint": ">=4.0.0"
