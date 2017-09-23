@@ -45,6 +45,7 @@ module.exports = {
     expect: false,
     beforeEach: false,
     afterEach: false,
-    before: false
+    before: false,
+    window: true
   }
 };
