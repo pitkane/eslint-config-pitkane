@@ -1,4 +1,3 @@
-
 # eslint-config-pitkane
 
 [![Build Status](https://travis-ci.org/pitkane/eslint-config-pitkane.svg?branch=master)](https://travis-ci.org/pitkane/eslint-config-pitkane)

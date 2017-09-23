@@ -37,7 +37,8 @@ module.exports = {
     "import/first": "off",
     "arrow-parens": "off",
     "no-underscore-dangle": "off",
-    "consistent-return": "off"
+    "consistent-return": "off",
+    "no-param-reassign": "off"
   },
   globals: {
     describe: false,
