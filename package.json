@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-pitkane",
-  "version": "0.1.1",
-  "description":
-    "Eslint config for react & react-native working with es7. Extends airbnb.",
+  "version": "0.1.2",
+  "description": "Eslint config for react & react-native working with es7. Extends airbnb.",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/pitkane/eslint-config-pitkane"
