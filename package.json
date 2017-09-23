@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-pitkane",
   "version": "0.1.3",
-  "description":
-    "Eslint config for react & react-native working with es7. Extends airbnb.",
+  "description": "Eslint config for react & react-native working with es7. Extends airbnb.",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/pitkane/eslint-config-pitkane"
@@ -12,13 +11,14 @@
   },
   "scripts": {
     "test": "node test/test.js",
-    "semantic-release":
-      "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "author": "Mikko Pitkänen <mikko@mbit.fi> <https://github.com/pitkane>",
   "license": "MIT",
   "keywords": [
@@ -45,6 +45,8 @@
     "eslint": ">=4.0.0"
   },
   "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
     "semantic-release": "^8.0.3"
   }
 }
