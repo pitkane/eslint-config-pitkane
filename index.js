@@ -36,7 +36,8 @@ module.exports = {
     "no-console": "off",
     "import/first": "off",
     "arrow-parens": "off",
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+    "consistent-return": "off"
   },
   globals: {
     describe: false,
