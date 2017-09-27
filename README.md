@@ -16,3 +16,17 @@
   "extends": "eslint-config-pitkane"
 }
 ```
+
+Define environments if needed
+
+```json
+{
+  "extends": "eslint-config-pitkane",
+  "rules": {},
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
+
+```
